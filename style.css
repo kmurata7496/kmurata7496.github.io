@@ -2,7 +2,7 @@
 body {
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f9;
+  background-color: #eee8aa;
   color: #333;
   max-width: 860px;
   margin: 60px auto;
@@ -77,4 +77,16 @@ a:hover {
 /* Section layout */
 section {
   margin-bottom: 2.5em;
+}
+
+.model-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 1em;
+}
+.model-item p {
+  text-align: center;
+  font-size: 0.95em;
+  margin-top: 0.5em;
 }
