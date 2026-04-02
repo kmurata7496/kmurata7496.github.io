@@ -7,12 +7,12 @@
     <style>
         /* 全体の設定（色やフォント） */
         :root {
-            --bg-color: #f4f6f9; /* 背景色 */
-            --text-color: #333333; /* 文字色 */
-            --sub-text: #666666; /* サブテキスト色 */
-            --btn-bg: #ffffff; /* ボタン背景色 */
-            --btn-text: #2c3e50; /* ボタン文字色 */
-            --btn-hover: #e2e8f0; /* ボタンホバー時の色 */
+            --bg-color: #f4f6f9;
+            --text-color: #333333;
+            --sub-text: #666666;
+            --btn-bg: #ffffff;
+            --btn-text: #2c3e50;
+            --btn-hover: #e2e8f0;
         }
 
         * {
@@ -49,7 +49,6 @@
             background-color: #cccccc;
             border-radius: 50%;
             margin: 0 auto 1rem;
-            /* 画像を設定する場合は以下のコメントアウトを外してURLを指定 */
             background-image: url('home_head.jpg');
             background-size: cover;
             background-position: center;
@@ -58,12 +57,6 @@
         .name {
             font-size: 1.4rem;
             font-weight: bold;
-            margin-bottom: 0.3rem;
-        }
-
-        .affiliation {
-            font-size: 0.9rem;
-            color: var(--sub-text);
             margin-bottom: 0.8rem;
         }
 
@@ -71,7 +64,37 @@
             font-size: 0.85rem;
             line-height: 1.6;
             color: var(--sub-text);
-            padding: 0 1rem;
+            padding: 0 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* メンバー一覧用のデザイン */
+        .member-list {
+            text-align: left;
+            background-color: var(--btn-bg);
+            padding: 1.2rem;
+            border-radius: 16px;
+            margin: 1.5rem 0;
+            border: 1px solid #eaeaea;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .member-item {
+            font-size: 0.95rem;
+            color: var(--text-color);
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .member-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .dept {
+            display: block;
+            font-size: 0.8rem;
+            color: var(--sub-text);
+            margin-top: 0.2rem;
         }
 
         /* リンクボタン部分 */
@@ -87,7 +110,7 @@
             color: var(--btn-text);
             text-decoration: none;
             padding: 1rem;
-            border-radius: 30px; /* LitLink風の丸みを帯びたボタン */
+            border-radius: 30px;
             font-weight: 500;
             font-size: 0.95rem;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -114,12 +137,26 @@
     <div class="container">
         <header class="profile">
             <div class="avatar"></div>
-            <h1 class="name">筑波大学ビザンツ研究会</h1>
-            <p class="affiliation">筑波大学 図書館情報メディア系 村田光司</p>
-            <p class="affiliation">筑波大学　人文社会ビジネス科学学術院　博士前期課程　高柳椋</p>
+            <h1 class="name">Tsukuba Portal for Byzantine Studies</h1>
+            
             <p class="description">
-                ここに簡単な研究内容や自己紹介を記述します。改行はそのまま反映されず、画面幅に合わせて自動で折り返されます。
+                Tsukuba Byzantine Studies Portal is a gateway to collaborative research, digital resources, and scholarly outputs related to Byzantine studies at the University of Tsukuba.
             </p>
+
+            <div class="member-list">
+                <p class="member-item">
+                    <strong>koji Murata</strong>
+                    <span class="dept">Faculty of Library, Information and Media Science, University of Tsukuba</span>
+                </p>
+                <p class="member-item">
+                    <strong>Kazufumi Takeda</strong>
+                    <span class="dept">Faculty of Art and Design, University of Tsukuba</span>
+                </p>
+                <p class="member-item">
+                    <strong>Ryo Takayanagi</strong>
+                    <span class="dept">Master's Program Student, Graduate School of Business Sciences, Humanities and Social Sciences, University of Tsukuba</span>
+                </p>
+            </div>
         </header>
 
         <main class="links">
@@ -131,7 +168,7 @@
         </main>
 
         <footer>
-            &copy; 2026 Your Name
+            &copy; 2026 Tsukuba Portal for Byzantine Studies
         </footer>
     </div>
 
