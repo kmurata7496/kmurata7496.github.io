@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>筑波大学ビザンツ研究会</title>
+    <style>
+        /* 全体の設定（色やフォント） */
+        :root {
+            --bg-color: #f4f6f9; /* 背景色 */
+            --text-color: #333333; /* 文字色 */
+            --sub-text: #666666; /* サブテキスト色 */
+            --btn-bg: #ffffff; /* ボタン背景色 */
+            --btn-text: #2c3e50; /* ボタン文字色 */
+            --btn-hover: #e2e8f0; /* ボタンホバー時の色 */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+
+        /* スマートフォン風の幅に制限 */
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        /* プロフィール部分 */
+        .profile {
+            margin-bottom: 2rem;
+        }
+
+        .avatar {
+            width: 110px;
+            height: 110px;
+            background-color: #cccccc;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            /* 画像を設定する場合は以下のコメントアウトを外してURLを指定 */
+            background-image: url('home_head.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .name {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 0.3rem;
+        }
+
+        .affiliation {
+            font-size: 0.9rem;
+            color: var(--sub-text);
+            margin-bottom: 0.8rem;
+        }
+
+        .description {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: var(--sub-text);
+            padding: 0 1rem;
+        }
+
+        /* リンクボタン部分 */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .link-btn {
+            display: block;
+            background-color: var(--btn-bg);
+            color: var(--btn-text);
+            text-decoration: none;
+            padding: 1rem;
+            border-radius: 30px; /* LitLink風の丸みを帯びたボタン */
+            font-weight: 500;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            border: 1px solid #eaeaea;
+        }
+
+        .link-btn:hover {
+            background-color: var(--btn-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        /* フッター */
+        footer {
+            margin-top: 3rem;
+            font-size: 0.75rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="profile">
+            <div class="avatar"></div>
+            <h1 class="name">筑波大学ビザンツ研究会</h1>
+            <p class="affiliation">筑波大学 図書館情報メディア系 村田光司</p>
+            <p class="affiliation">筑波大学　人文社会ビジネス科学学術院　博士前期課程　高柳椋</p>
+            <p class="description">
+                ここに簡単な研究内容や自己紹介を記述します。改行はそのまま反映されず、画面幅に合わせて自動で折り返されます。
+            </p>
+        </header>
+
+        <main class="links">
+            <a href="https://researchmap.jp/" target="_blank" rel="noopener" class="link-btn">A</a>
+            <a href="https://orcid.org/" target="_blank" rel="noopener" class="link-btn">B</a>
+            <a href="https://github.com/" target="_blank" rel="noopener" class="link-btn">C</a>
+            <a href="#" class="link-btn">D</a>
+            <a href="mailto:your-email@example.com" class="link-btn">E</a>
+        </main>
+
+        <footer>
+            &copy; 2026 Your Name
+        </footer>
+    </div>
+
+</body>
+</html>
