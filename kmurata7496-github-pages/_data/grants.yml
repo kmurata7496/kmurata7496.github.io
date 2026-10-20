@@ -1,0 +1,53 @@
+# =====================================================================
+# Grants（研究代表者として獲得した研究費）— 新しいものをいちばん上に追加
+#   years  : "2025–2027"（年の間は en dash「–」）
+#   title  : 課題名（英語）
+#   funder : 資金名
+# =====================================================================
+- years: "2026–2027"
+  title: "Building an Integrated Digital Research Infrastructure for Medieval Greek Architecture, Wall Paintings and Inscriptions"
+  funder: "The Kajima Foundation, General Research Grant"
+
+- years: "2025–2027"
+  title: "Records of Astronomical Phenomena in the Middle and Late Byzantine World"
+  funder: "The Mitsubishi Foundation, Research Grant in the Humanities"
+
+- years: "2025–2027"
+  title: "International Collaborative Research on Lead and Silver Resources in the Medieval Black Sea and Eastern Mediterranean"
+  funder: "Daiichi Sankyo “Habataku Jisedai” Donation Program, International Network Support Program"
+
+- years: "2025–2027"
+  title: "Philological and Astronomical Study of Eclipse Records around the Byzantine Empire"
+  funder: "Institute for Space-Earth Environmental Research, Nagoya University, General Joint Research"
+
+- years: "2023–2027"
+  title: "Management and Utilization of Documents in Byzantine Monastic Archives"
+  funder: "JSPS Grant-in-Aid for Early-Career Scientists (23K12297)"
+
+- years: "2022–2024"
+  title: "3D Archiving as Research Material and Multidisciplinary Studies on the Social Function of Byzantine Churches in Laconia, Greece"
+  funder: "The Kajima Foundation, Research Grant"
+
+- years: "2019–2023"
+  title: "The World of John III Batatzes in the Eurasian Context"
+  funder: "JSPS Grant-in-Aid for Early-Career Scientists (19K13389)"
+
+- years: "2019–2021"
+  title: "Preliminary Research on Roman and Byzantine Coin Finds in Central Asia"
+  funder: "The Resona Foundation for Asia and Oceania, Research Grant"
+
+- years: "2019–2020"
+  title: "Naval Administration of the Empire of Nicaea (1204–1261)"
+  funder: "The Japan Science Society, Sasakawa Scientific Research Grant"
+
+- years: "2016–2019"
+  title: "Documents of State Officials in the Late Byzantine Empire"
+  funder: "JSPS Grant-in-Aid for JSPS Fellows"
+
+- years: "2015–2016"
+  title: "Preliminary Research on Official Documents in the Late Byzantine Empire"
+  funder: "The Japan Science Society, Sasakawa Scientific Research Grant"
+
+- years: "2012–2015"
+  title: "Byzantine Imperial Documents and Governance after 1204"
+  funder: "JSPS Grant-in-Aid for JSPS Fellows"

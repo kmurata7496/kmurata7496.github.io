@@ -1,0 +1,33 @@
+# =====================================================================
+# Projects（進行中のプロジェクト）
+#   years   : 期間
+#   title   : プロジェクト名
+#   desc    : 一文の説明
+#   funding : 資金
+#   href    : リンク先（専用ページがあればそのURL、なければ "#grants"）
+#   external: 専用ページへのリンクなら "yes"（矢印が ↗ になります）
+# =====================================================================
+- years: "2022–"
+  title: "Byzantine Churches of Laconia"
+  desc: "3D documentation of more than one hundred churches in southern Greece, integrating architecture, wall paintings and inscriptions."
+  funding: "Kajima Foundation (2022–2024, 2026–2027)"
+  href: "projects.html"
+  external: "yes"
+
+- years: "2023–2027"
+  title: "Documents in Byzantine Monastic Archives"
+  desc: "How monasteries managed and used their documents."
+  funding: "JSPS KAKENHI 23K12297"
+  href: "#grants"
+
+- years: "2025–2027"
+  title: "Astronomical Records of the Byzantine World"
+  desc: "Philological and astronomical study of eclipse and other celestial records, with H. Hayakawa and colleagues."
+  funding: "Mitsubishi Foundation; ISEE, Nagoya University"
+  href: "#grants"
+
+- years: "2025–2027"
+  title: "Lead and Silver in the Medieval Black Sea and Eastern Mediterranean"
+  desc: "International collaborative research on metal resources, including lead-isotope analysis of Byzantine seals."
+  funding: "Daiichi Sankyo “Habataku Jisedai” Program"
+  href: "#grants"
