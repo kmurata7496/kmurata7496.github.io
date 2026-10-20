@@ -13,6 +13,7 @@
 #   post    : 誌名・書名の後に続く文字列（巻号・頁など。先頭の空白も含めて書く）
 #   doi     : DOI（"10." から。https://doi.org/ は不要）
 #   tags    : 付記（例 "Refereed · In Japanese"）
+#   project : "laconia" と書くと、ラコニアのプロジェクトページの Outputs にも表示されます
 #
 # 注意：値はすべて "..." で囲んでください。値の中で引用符を使いたいときは、
 #       曲線の引用符 “ ” または ‘ ’ を使うと安全です。
@@ -50,6 +51,7 @@
       venue: "Waseda RILAS Journal"
       post: " 11, 267–278"
       tags: "Refereed · In Japanese"
+      project: "laconia"
 
     - year: "2023"
       authors: "K. Murata"
@@ -237,6 +239,7 @@
       venue: "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
       post: " XLVIII-M-9-2025, 579–585"
       tags: "Refereed"
+      project: "laconia"
 
     - year: "2024"
       authors: "F. Condorelli, R. Higuchi, K. Murata, E. Ota, K. Takeda"
@@ -245,6 +248,7 @@
       venue: "VL 2024: International Conference on Visualizing Landscape"
       post: " (Alghero: PUBLICA), 840–855"
       tags: "Refereed · Corresponding author"
+      project: "laconia"
 
     - year: "2023"
       authors: "R. Higuchi, K. Murata"
@@ -253,6 +257,7 @@
       post: " X-M-1-2023, 125–131"
       doi: "10.5194/isprs-annals-x-m-1-2023-125-2023"
       tags: "Refereed"
+      project: "laconia"
 
     - year: "2022"
       authors: "K. Murata"

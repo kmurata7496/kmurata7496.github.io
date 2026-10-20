@@ -17,8 +17,9 @@ kmurata7496.github.io/
 │   ├─ publications.yml    … 業績（7区分）
 │   ├─ presentations.yml   … 研究発表
 │   ├─ grants.yml          … 研究費（代表者のもの）
-│   └─ projects.yml        … プロジェクト
-├─ projects.html           … 既存のラコニア 3D ページ（そのまま残す）
+│   ├─ projects.yml        … プロジェクト
+│   └─ laconia_models.yml  … ラコニアの 3D モデル一覧
+├─ projects.html           … ラコニア・プロジェクトのページ
 └─ UPDATE_GUIDE_ja.md      … このガイド（サイトには表示されません）
 ```
 
@@ -28,12 +29,11 @@ kmurata7496.github.io/
 
 1. ブラウザで `https://github.com/kmurata7496/kmurata7496.github.io` を開く。
 2. 緑の **Code** ボタンの左にある **Add file → Upload files** を選ぶ。
-3. 配布した zip を展開し、**中身（index.html, _config.yml, _data フォルダ, assets フォルダ, UPDATE_GUIDE_ja.md）をまとめて**アップロード欄にドラッグする。
+3. 配布した zip を展開し、**中身（index.html, projects.html, _config.yml, _data フォルダ, assets フォルダ, UPDATE_GUIDE_ja.md）をまとめて**アップロード欄にドラッグする。
    - フォルダごとドラッグすれば、`_data/…` や `assets/css/…` の構造が保たれます（Chrome / Edge / Safari で可）。
-   - 同名の `index.html` は自動で上書きされます。
+   - 同名の `index.html` と `projects.html` は自動で上書きされます。
 4. ページ下の **Commit changes** を押す。
 5. 不要になった古いファイルがあれば削除する（例：`contact.html`）。ファイルを開き、右上の「…」→ **Delete file** → **Commit changes**。
-   - `projects.html`（ラコニアのページ）は Projects 欄からリンクしているので**残してください**。
 6. **Settings → Pages** を開き、次のようになっているか確認する。
    - Source: **Deploy from a branch**
    - Branch: **main** / **/(root)**
@@ -84,7 +84,34 @@ kmurata7496.github.io/
 
 ---
 
-## 5. （参考）手元のパソコンから git で更新する場合
+## 5. ラコニアの 3D モデル一覧の更新
+
+3D モデルは Sketchfab 側で **Password-protected** に設定してあるので、リンクが公開されていても、パスワードを知らない人はモデルを表示できません。
+プロジェクトページには「レビュー段階のためパスワードが必要」という注記を、冒頭と 3D Models 欄の 2 か所に出しています。
+
+### モデルを追加する
+
+1. Sketchfab でモデルを公開設定 **Password-protected** にしてアップロードする（既存モデルと同じパスワードにしておくと共同研究者が楽です）。
+2. モデルの URL から 32 文字の ID（例：`https://sketchfab.com/3d-models/…-d76f0370b6fb405dafde8c16a92bf222` の末尾）を控える。
+3. GitHub で `_data/laconia_models.yml` を開き、鉛筆アイコンで番号順の位置に追加する。
+
+   ```yaml
+   - code: "105"
+     name: "Church Name"
+     year: "2026"
+     id: "0123456789abcdef0123456789abcdef"
+
+   ```
+
+4. **Commit changes** を押す。件数表示（例：21 models）も自動で変わります。
+
+### 公開段階になったら
+
+Sketchfab で各モデルの設定を Public（または Private）に戻し、`projects.html` の注記 2 か所（`class="notice"` の部分）を削除してください。必要なら文面の書き換えもお手伝いします。
+
+---
+
+## 6. （参考）手元のパソコンから git で更新する場合
 
 ```bash
 git clone https://github.com/kmurata7496/kmurata7496.github.io.git   # 初回のみ

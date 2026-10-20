@@ -5,6 +5,7 @@
 #   title   : タイトル（日本語発表は英訳）
 #   event   : 学会・研究会名、会場など
 #   tags    : 付記（例 "Invited · In Japanese"。なければ行ごと省略）
+#   project : "laconia" と書くと、ラコニアのプロジェクトページにも表示されます
 # =====================================================================
 - date: "2026.08"
   authors: "R. Takayanagi, K. Murata"
@@ -66,6 +67,7 @@
   title: "The Inscriptions of the Churches of Lakedaimon: Towards New Readings and a Typology"
   event: "Workshop “Byzantine Churches of Laconia: Research Resources and Interdisciplinary Studies”"
   tags: "In Japanese"
+  project: "laconia"
 
 - date: "2024.04"
   authors: "H. Hayakawa, M. J. Owens, M. Lockwood, M. Sôma, K. Murata"
@@ -87,12 +89,14 @@
   authors: "R. Higuchi, K. Murata"
   title: "3D Scholarly Editions for Byzantine Studies: Multimedia Visual Representations for History, Art History and Architectural History"
   event: "29th CIPA Symposium, Florence"
+  project: "laconia"
 
 - date: "2023.03"
   authors: "K. Murata, K. Takeda"
   title: "On the Laconian and Cappadocian Survey Materials Formerly Held by Yasuji Nagatsuka"
   event: "20th Annual Meeting of the Japanese Society for Byzantine Studies"
   tags: "In Japanese"
+  project: "laconia"
 
 - date: "2023.03"
   authors: "K. Murata"
@@ -111,6 +115,7 @@
   title: "Turning Byzantine Church Sites in Greece into Research Resources through 3D Digital Archives"
   event: "Japanese Association for Digital Humanities, 1st Meeting on Information Literacy for the Humanities"
   tags: "In Japanese"
+  project: "laconia"
 
 - date: "2021.02"
   authors: "K. Murata"

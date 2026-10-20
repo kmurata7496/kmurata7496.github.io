@@ -1,283 +1,155 @@
-<!DOCTYPE html>
+---
+# ラコニア・プロジェクトのページ。業績・発表は _data の "project: laconia" が付いたものが自動で表示されます。
+# 3D モデルの一覧は _data/laconia_models.yml を編集します（UPDATE_GUIDE_ja.md の 5 章）。
+---
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Research Project: Byzantine Churches in Laconia</title>
-  <meta name="robots" content="noindex,nofollow,noarchive" />
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Byzantine Churches of Laconia | Koji Murata</title>
+<meta name="description" content="A project documenting more than one hundred Byzantine churches in Laconia, southern Greece, with photogrammetric 3D models.">
+<link rel="canonical" href="{{ site.url }}/projects.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
 
-  <h1>Research Project</h1>
+<header class="site-header">
+  <div class="inner">
+    <a class="site-name" href="{{ '/' | relative_url }}">Koji Murata</a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#about">01 About</a>
+      <a href="#models">02 3D Models</a>
+      <a href="#outputs">03 Outputs</a>
+      <a href="#funding">04 Funding</a>
+      <a href="{{ '/' | relative_url }}">Home ↩</a>
+    </nav>
+  </div>
+</header>
 
-  <section>
-    <h2>Digital Documentation of Byzantine Churches in Laconia</h2>
-    <p>
-      This project aims to digitally document and analyze more than one hundred Byzantine churches located in the Laconia region of southern Greece. 
-      The research combines photogrammetry-based 3D modeling with historical, architectural, and art historical analysis.
-    </p>
-    <p>
-      By creating high-resolution 3D models of these churches, the project seeks to integrate inscriptions, wall paintings, and architectural features into a single digital environment. 
-      This approach enables a comprehensive study of their spatial configuration, visual programs, and historical context.
-    </p>
-    <p>
-      The digital archive will serve both as a scholarly resource and as a platform for public dissemination, contributing to the preservation and reinterpretation of Byzantine cultural heritage in the Peloponnese.
-    </p>
-  </section>
+<main id="main">
 
-  <section>
-    <h2>Selected 3D Models</h2>
-    <p>
-      These models represent part of the ongoing digital documentation of over one hundred Byzantine churches in the Laconia region. 
-      They are created using photogrammetry and are accessible interactively below.
-    </p>
+<section id="about" class="about">
+  <p class="crumb"><a href="{{ '/' | relative_url }}#projects">Projects</a></p>
+  <h1 class="project-h1">Byzantine Churches of Laconia</h1>
+  <dl class="facts">
+    <dt>PERIOD</dt><dd>2019–</dd>
+    <dt>REGION</dt><dd>Laconia, Peloponnese, Greece</dd>
+    <dt>METHODS</dt><dd>Photogrammetry; 3D scholarly editions</dd>
+    <dt>PI</dt><dd>Koji Murata (University of Tsukuba)</dd>
+    <dt>TEAM</dt><dd>Koji Murata, Ryo Higuchi, and others</dd>
+  </dl>
+  <p class="summary">The project documents more than one hundred Byzantine churches in Laconia with photogrammetric 3D models. By bringing architecture, wall paintings and inscriptions together in a single digital environment, it treats each church as a research resource for historians, art historians and architectural historians, and develops 3D scholarly editions that combine visual and textual evidence. It is carried out as a team project and has been supported by the Kajima Foundation since 2022.</p>
+  <div class="notice" role="note">
+    <p class="notice-title">The 3D models are under review</p>
+    <p>The models are currently in a review phase and are shared with project members and collaborators only. Viewing them requires a password. <a href="#models">Go to the 3D models</a></p>
+  </div>
+</section>
 
-    <div class="model-grid">
-
-<!-- Model: 003 Agoriani Agios Nikolaos -->
-<div class="model-item">
-  <iframe title="003_Agoriani_Agios_Nikolaos_light_2023" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/d76f0370b6fb405dafde8c16a92bf222/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>003 Agoriani Agios Nikolaos (2023)</p>
-</div>
-      
-      <!-- Model 009 -->
-      <div class="model-item">
-        <iframe title="009_Vresthena_Panagia_Vresthinitissa_light_2023" frameborder="0"
-          allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-          allow="autoplay; fullscreen; xr-spatial-tracking"
-          src="https://sketchfab.com/models/34dec63320184ec2a00a81a17b2488de/embed"
-          width="100%" height="300">
-        </iframe>
-        <p>009 Vresthena Panagia Vresthinitissa (2023)</p>
-      </div>
-
-<!-- Model: 011 Vassaras Ai-Giannakis -->
-<div class="model-item">
-  <iframe title="011_Vassaras_Ai-Giannakis_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/e3a3971f242446adaec66c7585611626/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>011 Vassaras Ai-Giannakis (2024)</p>
-</div>
-
-<!-- Model: 011a Kato Ai Giannakis -->
-<div class="model-item">
-  <iframe title="011a_Kato_Ai_Giannakis_light_2023" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/9ee86f8d5ab74fac910a66d01f75a2a4/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>011a Kato Ai Giannakis (2023)</p>
-</div>
-
-<!-- Model: 014 Tzintzina Ioannis Prodromos -->
-<div class="model-item">
-  <iframe title="014_Tzintzina_Ioannis_Prodromos_light_2023" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/0f351e4c309e4073af09d3e750dca71d/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>014 Tzintzina Ioannis Prodromos (2023)</p>
-</div>
-
-<!-- Model: 017 Kastori Agios Dimitrios Moschonision -->
-<div class="model-item">
-  <iframe title="017_Kastori_Agios_Dimitrios_Moschonision_light" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/b5c5da288e8744cab80c5f850bc559b1/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>017 Kastori Agios Dimitrios Moschonision (2024)</p>
-</div>
-
-      
-      <!-- Model: 018 Sellasia Palaiopanagia -->
-<div class="model-item">
-  <iframe title="018_Sellasia_Palaiopanagia_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/a798eedb4c544112838e36ed1b42977c/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>018 Sellasia Palaiopanagia (2024)</p>
-</div>
-
-<!-- Model: 022 Theologos Paliomonastiro -->
-<div class="model-item">
-  <iframe title="022_Theologos_Paliomonastiro_light_2022" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/81df7e967f08438c86996140da8139c4/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>022 Theologos Paliomonastiro (2022)</p>
-</div>
-
-<!-- Model: 023 Theologos Prodromos (Askitario) -->
-<div class="model-item">
-  <iframe title="023_Theologos_Prodromos(Askitario)_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/d290f6cdb76f49f3b494907fce88fe16/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>023 Theologos Prodromos (Askitario) (2024)</p>
-</div>
-      
-<!-- Model: 023a Sofronis Analipsis -->
-<div class="model-item">
-  <iframe title="023a_Sofronis_Analipsis_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/45d4f2826272487f9881df00a86bbf24/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>023a Sofronis Analipsis (2024)</p>
-</div>
-
-<!-- Model: 025a Sofronis Agios Nikolaos -->
-<div class="model-item">
-  <iframe title="025a_Sofronis_Agios_Nikolaos_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/7548400a2c5f46758828679beb3c77da/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>025a Sofronis Agios Nikolaos (2024)</p>
-</div>
-      
-      <!-- Model: 070 Amykles Prophitis Ilias -->
-<div class="model-item">
-  <iframe title="070_Amykles_Prophitis_Ilias_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/0b1ab4bbfb2649c2a6bd781ca7d4e06b/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>070 Amykles Prophitis Ilias (2024)</p>
-</div>
-
-<!-- Model: 072 Amykles Agios Nikolaos -->
-<div class="model-item">
-  <iframe title="072_Amykles_Agios_Nikolaos_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/a6d30d3dd5574001b831e8fea3bc6c88/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>072 Amykles Agios Nikolaos (2024)</p>
-</div>
-      
-      <!-- Model: 074 Goritsa Taxiarches -->
-<div class="model-item">
-  <iframe title="074_Goritsa_Taxiarches_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/6fcf31cf73a843c48db3be1dc1b17c28/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>074 Goritsa Taxiarches (2024)</p>
-</div>
-
-<!-- Model: 084 Daphni Ioannis Prodromos -->
-<div class="model-item">
-  <iframe title="084_Daphni_Ioannis_Prodromos_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/206861798339412d8902d4d6d73374b9/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>084 Daphni Ioannis Prodromos (2024)</p>
-</div>
-      
-      <!-- Model 91 -->
-      <div class="model-item">
-        <iframe title="91_Geraki_Taxiarches_light_2023" frameborder="0"
-          allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-          allow="autoplay; fullscreen; xr-spatial-tracking"
-          src="https://sketchfab.com/models/4109c28efffd48dd9084051d6515f870/embed"
-          width="100%" height="300">
-        </iframe>
-        <p>091 Geraki Taxiarches (2023)</p>
-      </div>
-
-
-      <!-- Model: 096 Geraki Kokkini Ekklesia -->
-<div class="model-item">
-  <iframe title="096_Geraki_Kokkini_Ekklesia_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/b5cf63ea8ed74cb8ab9d6d9857e53468/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>096 Geraki Kokkini Ekklesia (2024)</p>
-</div>
-      
-      <!-- Model 98 -->
-      <div class="model-item">
-        <iframe title="098_Ai_Stratigos_sto_Mariorema_light_2024" frameborder="0"
-          allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-          allow="autoplay; fullscreen; xr-spatial-tracking"
-          src="https://sketchfab.com/models/9f1fe701f5384072995cf73d13a0418c/embed"
-          width="100%" height="300">
-        </iframe>
-        <p>098 Ai Stratigos sto Mariorema (2024)</p>
-      </div>
-
-<!-- Model: 099 Grammousa Agioi Saranda -->
-<div class="model-item">
-  <iframe title="099_Grammousa_Agioi_Saranda_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/947b72a29b5840c0b42b2a6181bb1434/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>099 Grammousa Agioi Saranda (2024)</p>
-</div>
-      
-      <!-- Model 100 -->
-      <div class="model-item">
-        <iframe title="100_Brontamas_Paliomonastiro_light_2024" frameborder="0"
-          allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-          allow="autoplay; fullscreen; xr-spatial-tracking"
-          src="https://sketchfab.com/models/6b1a84dc2fc24c498f3e787ff0d4b738/embed"
-          width="100%" height="300">
-        </iframe>
-        <p>100 Brontamas Paliomonastiro (2024)</p>
-      </div>
-
-<!-- Model: 102 Krokees Agios Dimitrios -->
-<div class="model-item">
-  <iframe title="102_Krokees_Agios_Dimitrios_light_2024" frameborder="0"
-    allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
-    allow="autoplay; fullscreen; xr-spatial-tracking"
-    src="https://sketchfab.com/models/dd570c09d90d44d8a9d2d9106eb5e47a/embed"
-    width="100%" height="300">
-  </iframe>
-  <p>102 Krokees Agios Dimitrios (2024)</p>
-</div>
-      
+<section id="models" class="section">
+  <div class="section-label">02 / 3D Models<div class="label-note">Under review · password required</div></div>
+  <div class="section-body">
+    <div class="notice" role="note">
+      <p class="notice-title">Password required</p>
+      <p>These models are in a review phase and are not yet public. Each viewer asks for a password; project members and collaborators can obtain it from the principal investigator.</p>
     </div>
-  </section>
+    <div class="gallery-head"><span class="when">{{ site.data.laconia_models | size }} models</span></div>
+    {% for m in site.data.laconia_models %}
+    <div class="row model">
+      <div class="when">{{ m.code }}</div>
+      <div>
+        <div class="title">{{ m.name | escape }}{% if m.year %} ({{ m.year }}){% endif %}</div>
+        <div class="model-actions">
+          <button type="button" class="text-btn view-3d" data-id="{{ m.id }}" data-name="{{ m.name | escape }}" aria-expanded="false">View 3D</button>
+          <a href="https://sketchfab.com/models/{{ m.id }}" target="_blank" rel="noopener noreferrer">Open on Sketchfab ↗</a>
+        </div>
+        <div class="viewer" hidden></div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 
-  <p><a href="index.html">← Back to Home</a></p>
+<section id="outputs" class="section">
+  <div class="section-label">03 / Outputs</div>
+  <div class="section-body pub">
+    <h3>Publications</h3>
+    {% for c in site.data.publications %}{% for p in c.items %}{% if p.project == "laconia" %}
+    <div class="row">
+      <div class="when">{{ p.year }}</div>
+      <div>
+        <div class="title">{{ p.title | escape }}</div>
+        <div class="meta">{{ p.authors | escape }} · {{ p.pre | escape }}{% if p.venue %}<i>{{ p.venue | escape }}</i>{% endif %}{{ p.post | escape }}</div>
+        {% if p.tags or p.doi %}<div class="extras">{% if p.tags %}<span class="tags">{{ p.tags | escape }}</span>{% endif %}{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% endif %}</div>{% endif %}
+      </div>
+    </div>
+    {% endif %}{% endfor %}{% endfor %}
+    <h3>Presentations</h3>
+    <div class="talks-flat">
+    {% for t in site.data.presentations %}{% if t.project == "laconia" %}
+    <div class="row">
+      <div class="when">{{ t.date }}</div>
+      <div>
+        <div class="title">{{ t.title | escape }}</div>
+        <div class="meta">{{ t.authors | escape }} · {{ t.event | escape }}</div>
+        {% if t.tags %}<div class="extras"><span class="tags">{{ t.tags | escape }}</span></div>{% endif %}
+      </div>
+    </div>
+    {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="funding" class="section">
+  <div class="section-label">04 / Funding</div>
+  <div class="section-body">
+    <div class="row">
+      <div class="when">2026–2027</div>
+      <div><div class="title">Building an Integrated Digital Research Infrastructure for Medieval Greek Architecture, Wall Paintings and Inscriptions</div><div class="sub">The Kajima Foundation, General Research Grant (PI: K. Murata)</div></div>
+    </div>
+    <div class="row">
+      <div class="when">2022–2024</div>
+      <div><div class="title">3D Archiving as Research Material and Multidisciplinary Studies on the Social Function of Byzantine Churches in Laconia, Greece</div><div class="sub">The Kajima Foundation, Research Grant (PI: K. Murata)</div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <div class="inner">
+    <div>
+      <div class="footer-label">Contact</div>
+      <div class="footer-email">kmurata [at] slis.tsukuba.ac.jp</div>
+      <div class="footer-address">Institute of Library, Information and Media Science, University of Tsukuba<br>1-2 Kasuga, Tsukuba, Ibaraki 305-8550, Japan</div>
+    </div>
+    <div class="updated">Last updated {{ site.time | date: "%B %Y" }}</div>
+  </div>
+</footer>
+
+<script>
+/* 「View 3D」を押したときだけ Sketchfab のビューアを読み込む（21 件を一度に読み込まないため） */
+document.querySelectorAll(".view-3d").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var box = btn.closest(".row").querySelector(".viewer");
+    var opening = box.hidden;
+    if (opening && !box.firstChild) {
+      var f = document.createElement("iframe");
+      f.title = btn.getAttribute("data-name");
+      f.src = "https://sketchfab.com/models/" + encodeURIComponent(btn.getAttribute("data-id")) + "/embed";
+      f.allow = "autoplay; fullscreen; xr-spatial-tracking";
+      f.setAttribute("allowfullscreen", "");
+      box.appendChild(f);
+    }
+    box.hidden = !opening;
+    btn.textContent = opening ? "Hide 3D" : "View 3D";
+    btn.setAttribute("aria-expanded", String(opening));
+  });
+});
+</script>
 </body>
 </html>
-

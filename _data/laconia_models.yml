@@ -1,0 +1,115 @@
+# =====================================================================
+# ラコニア・プロジェクトの 3D モデル一覧（projects.html の 05 / 3D Models に表示）
+# モデルは Sketchfab 側で Password-protected にしてあるため、ここに書いても
+# パスワードなしでは閲覧できません。
+#   code : 聖堂番号
+#   name : 名称
+#   year : 撮影・作成年
+#   id   : Sketchfab のモデル ID（URL 中の 32 文字の英数字）
+# 番号順に並べてください。
+# =====================================================================
+
+- code: "003"
+  name: "Agoriani Agios Nikolaos"
+  year: "2023"
+  id: "d76f0370b6fb405dafde8c16a92bf222"
+
+- code: "009"
+  name: "Vresthena Panagia Vresthinitissa"
+  year: "2023"
+  id: "34dec63320184ec2a00a81a17b2488de"
+
+- code: "011"
+  name: "Vassaras Ai-Giannakis"
+  year: "2024"
+  id: "e3a3971f242446adaec66c7585611626"
+
+- code: "011a"
+  name: "Kato Ai Giannakis"
+  year: "2023"
+  id: "9ee86f8d5ab74fac910a66d01f75a2a4"
+
+- code: "014"
+  name: "Tzintzina Ioannis Prodromos"
+  year: "2023"
+  id: "0f351e4c309e4073af09d3e750dca71d"
+
+- code: "017"
+  name: "Kastori Agios Dimitrios Moschonision"
+  year: "2024"
+  id: "b5c5da288e8744cab80c5f850bc559b1"
+
+- code: "018"
+  name: "Sellasia Palaiopanagia"
+  year: "2024"
+  id: "a798eedb4c544112838e36ed1b42977c"
+
+- code: "022"
+  name: "Theologos Paliomonastiro"
+  year: "2022"
+  id: "81df7e967f08438c86996140da8139c4"
+
+- code: "023"
+  name: "Theologos Prodromos (Askitario)"
+  year: "2024"
+  id: "d290f6cdb76f49f3b494907fce88fe16"
+
+- code: "023a"
+  name: "Sofronis Analipsis"
+  year: "2024"
+  id: "45d4f2826272487f9881df00a86bbf24"
+
+- code: "025a"
+  name: "Sofronis Agios Nikolaos"
+  year: "2024"
+  id: "7548400a2c5f46758828679beb3c77da"
+
+- code: "070"
+  name: "Amykles Prophitis Ilias"
+  year: "2024"
+  id: "0b1ab4bbfb2649c2a6bd781ca7d4e06b"
+
+- code: "072"
+  name: "Amykles Agios Nikolaos"
+  year: "2024"
+  id: "a6d30d3dd5574001b831e8fea3bc6c88"
+
+- code: "074"
+  name: "Goritsa Taxiarches"
+  year: "2024"
+  id: "6fcf31cf73a843c48db3be1dc1b17c28"
+
+- code: "084"
+  name: "Daphni Ioannis Prodromos"
+  year: "2024"
+  id: "206861798339412d8902d4d6d73374b9"
+
+- code: "091"
+  name: "Geraki Taxiarches"
+  year: "2023"
+  id: "4109c28efffd48dd9084051d6515f870"
+
+- code: "096"
+  name: "Geraki Kokkini Ekklesia"
+  year: "2024"
+  id: "b5cf63ea8ed74cb8ab9d6d9857e53468"
+
+- code: "098"
+  name: "Ai Stratigos sto Mariorema"
+  year: "2024"
+  id: "9f1fe701f5384072995cf73d13a0418c"
+
+- code: "099"
+  name: "Grammousa Agioi Saranda"
+  year: "2024"
+  id: "947b72a29b5840c0b42b2a6181bb1434"
+
+- code: "100"
+  name: "Brontamas Paliomonastiro"
+  year: "2024"
+  id: "6b1a84dc2fc24c498f3e787ff0d4b738"
+
+- code: "102"
+  name: "Krokees Agios Dimitrios"
+  year: "2024"
+  id: "dd570c09d90d44d8a9d2d9106eb5e47a"
