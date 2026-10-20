@@ -1,0 +1,10 @@
+# サイト全体の設定（ふだんは変更不要）
+title: "Koji Murata"
+description: "Koji Murata, Associate Professor of Byzantine Studies at the Institute of Library, Information and Media Science, University of Tsukuba."
+url: "https://kmurata7496.github.io"
+lang: "en"
+
+# サイトとして公開しないファイル
+exclude:
+  - UPDATE_GUIDE_ja.md
+  - README.md
